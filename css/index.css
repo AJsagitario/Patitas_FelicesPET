@@ -1,0 +1,87 @@
+/* ESTILO GENERAL */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #ff8c00; /* Naranja vibrante */
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff176 !important; /* Amarillo suave */
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ff8c00;
+}
+
+/* TARJETAS DE PRODUCTOS */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    background: #fff;
+    text-align: center;
+}
+
+/* BOTONES */
+.btn-primary {
+    background-color: #ff8c00;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #e07b00;
+}
+
+/* EFECTO HOVER EN IMÁGENES DEL CARRUSEL */
+.carousel-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+/* CARRUSEL DE MARCAS */
+#brandCarousel {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    max-width: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.1);
+}
+
+
