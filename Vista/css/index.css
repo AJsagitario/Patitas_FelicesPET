@@ -1,0 +1,136 @@
+/* ======= ESTILO GAMER ======= */
+body {
+    background-color: azure;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #00c3ff, #0072ff);
+    border-bottom: 3px solid #00ff99;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00ff99 !important;
+    text-shadow: 0px 0px 10px #00ff99;
+}
+
+/* ======= MAPA CENTRADO ======= */
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ======= FOOTER ORGANIZADO ======= */
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: azure;
+    padding: 30px;
+    text-align: center;
+}
+
+.container-section {
+    width: 30%;
+    min-width: 250px;
+}
+
+.container-section h3 {
+    color:  forestgreen;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container-section ul li a {
+    text-decoration: none;
+    color: darkolivegreen;
+    transition: 0.3s;
+}
+
+.container-section ul li a:hover {
+    color: #0072ff;
+    text-shadow: 0px 0px 10px #00c3ff;
+}
+
+/* ======= BOTÓN WHATSAPP FLOTANTE ======= */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 15px #25d366;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px #25d366;
+}
+
+/* ======= TARJETAS GAMER ======= */
+.card {
+    background: #1e1e1e;
+    border: 2px solid #00ff99;
+    box-shadow: 0px 0px 10px rgba(0, 255, 153, 0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px rgba(0, 255, 153, 0.8);
+}
+
+.card .btn {
+    background: #00ff99;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.card .btn:hover {
+    background: #00c3ff;
+    color: #fff;
+}
+
+/* ======= EFECTO A IMÁGENES ======= */
+img {
+    transition: 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+/* ======= TITULO oferta y marcas======= */
+.titulo-seccion{
+    background-color: #0072ff !important; /* Cambia este color por el que prefieras */
+    color: white !important; /* Asegura que el texto sea legible */
+    padding: 15px 0; /* Agrega espacio arriba y abajo */
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    /* Espacio debajo del título */
+}
+
+
